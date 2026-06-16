@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "animaltracker-499320",
+  "private_key_id": "00fbcd6af04e479dbe1a0e817947bc5dcdceec17",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDqJZpj1jHP+Dc9\nUZYxF++3sJIL2Fc4NBAY7hmXY7mfxtk87HclY312y6jhvDr7wCbfwgj5Cm33AmaM\n50Clm0c4XMFfEgHO995k2s1jklzWnPgHFjJzlbQLw2oJzKiFW2w4DjRJhkltQvPj\n9BkGGeU3OM/0/tqZZ1cuyXKO48IK58mQmnsounWDKaSq2Pg+Zjls2jlN/6TyZuHt\nDIIIk07yKgUDmAeYMCrycsYDCEJ0UqT88sRc18GHblmtxodeSys2875NInirD4p7\n8qea1qIsxVOqoWERnD7VyMwQ3ZWrwSWDPgHAbqpq53CoehamaehFtpdf6XrI/cJx\n8FwEZNvjAgMBAAECggEAcL+mtoh/+AsoXmiZEA7cqfFmgjms1i2LytVskU++JMgV\n95ZOUTy1P60WJ40CQhPnJDxFIdb52MXZJ+R7ZsN86hEQNH1xTX5iIuKRoG7sMZPo\ng1EW/j2KM1foCcv5Ii5B0ERWvUjitrBUzOHP4vY5P/wld235SYFPpAHxHglieOj0\nfg6/DAZlPdj8ymDDRVky1p2yOVP386sdT3X8ifTL6vXxjzVvnXRTq4GBS2ileuUZ\nxQKN0c0swz4sjYJad0680/jfB6UWnUDKAoTsG+hfXHxKsamKQrO/BxA/qdnkDWvS\nqRPOCB1mlXsM4mYvHZBz1HM0QjTzqHQqdSziLhOEQQKBgQD4/aNWtYN4TsGPInHb\nWxgP6xj/DjFy13RijKAOGOVrUoJTV6cgnZE48JIKbS+F1/f7hBgZL/snHNlTwwOy\nQ9CvH0ier7gKfOmnob3bBDtgr7KFYdV8EUnH0dq8lFpT1EIXHNTGtRzA8GkCk/Z/\n0h7Dueb44ShvZcKqd//pTdOkMQKBgQDwvP3ykiie1+lBU6lwlk1M/Y54xMKmZwu7\n/DaOcmb1W8pxG0uOSnXKuuuc1VDWJrVhum3pbJkfYrjY+pajYRvASvSLre5QX7OD\nIsThWTHBpubo+S7UZuxaRqIPmWEGb0o63Oye3ymfNrJDVYgSKrkIkYecX+LS+zQP\nrMhlYqigUwKBgQDAZq5bCHQI+UKUqlc029ViJ5bvMDaBuX+Tz3q2qgJNxjoy0J6y\nk09uomcXa3u3f0V+s3ozrGH0vVQqZ51pmQGe8Ruak8oxQIkFIfSlU0XW1q2qaAkh\nj/JlWAIgirqp4HEZjwvUaItJg/yBI3jtGJ7xO6wBUWt/eTDNrWCxFZSfYQKBgHzg\nzKqj/sZHIgxtJZvtm7OwY9Np3b8L/R5KutIxrg7gyqbZjdwF7Ax54fa9AO3Vrok/\nd/x6BQQu5cxIURP3L7oUJ769Pr4aprgDtTVgW1slBOsdN5meukQqF68X1SjNWigm\nqefPw3t/mAEtwSQLXWiAdWQ8qSDghiULb/iHsQlZAoGAY/OCAue6eOf0e0TPFFGi\nk6zJC05LpetLkG3JP4DQALyL7lu41+a8bEVnQSZCtfPb6Fqusjz1dP8eVvYmcKF7\nFN5EHFDRqCnHhDrBBzmgYq7+137AQS2YWbcR98QJggkPHA8bSq9Bt/UzIqg0O7Nj\ngyINZWJDccxicuMiDBrltd0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "animaltracker@animaltracker-499320.iam.gserviceaccount.com",
+  "client_id": "105442076902444019251",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/animaltracker%40animaltracker-499320.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
