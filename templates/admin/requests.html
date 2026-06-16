@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="admin-requests">
+        <h2>Registration Requests</h2>
+        
+        <div class="requests-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>First Name</th>
+                        <th>Email</th>
+                        <th>Card Number</th>
+                        <th>Request Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for req in requests %}
+                        <tr>
+                            <td>{{ req.ID }}</td>
+                            <td style="font-weight: 600; color: var(--primary);">{{ req.Name }}</td>
+                            <td>{{ req.First_name }}</td>
+                            <td>{{ req.Email }}</td>
+                            <td>{{ req.Card_number }}</td>
+                            <td>{{ req.Request_date }}</td>
+                            <td>
+                                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                                    <form action="{{ url_for('process_request',request_id=req.ID,action='accept') }}" method="post"
+                                        class="spinner-form" data-loading-text="Approving registration request..."
+                                        style="display:inline;">
+                                        <button type="submit" class="btn btn-success" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+                                            Accept
+                                        </button>
+                                    </form>
+                                    <form action="{{ url_for('process_request',request_id=req.ID,action='reject') }}"
+                                        method="post" class="spinner-form" data-loading-text="Rejecting registration request..."
+                                        style="display:inline;">
+                                        <button type="submit" class="btn btn-danger" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+                                            Reject
+                                        </button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    {% else %}
+                        <tr>
+                            <td colspan="7" style="text-align: center; color: var(--text-muted); padding: 2rem;">
+                                No registration requests in queue.
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}
